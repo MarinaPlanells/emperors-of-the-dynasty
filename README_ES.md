@@ -1,11 +1,11 @@
 Emperors of the Dynasty
 =======================
 
-* **Emperors of the Dynasty** is an n-player game.
-* Each played game represents a tournament, sometimes also called a battle or a combat.
-* Tournaments happen in different battlefields.
-* In each tournament, a player controls one Emperor and a few pawns (typically 4) over a tiled board, playing against several other players.
-* A player controls a Dynasty of Emperors. When a game starts, the player chooses one of the Emperors of his Dynasty. The player can hold several simultaneous games. But an Emperor can only be used in one tournament at a time.
+* **Emperors of the Dynasty** es un juego multijugador.
+* Cada partida jugada representa un torneo, a veces llamado también batalla o combate.
+* Los torneos se pueden realizar en diferentes campos de batalla.
+* En cada torneo, el jugador controla un Emperador y unos cuantos peones (normalmente 4) sobre un tablero en mosaico, jugando contra otros varios jugadores.
+* El jugador controla una Dinastía de Emperadores. Cuando un juego comienza, el jugador elije a uno de los Emperadores de su Dinastía. El jugador puede tener varios juegos simultáneos. Pero un Emperador solo puede ser usado en un torneo por vez, es decir, el jugador no puede tener a un mismo Emperador en dos Torneos a la vez.
 * At the end of the tournament, an Emperor can:
   * **Survive,** and the player gets it ready for another tournament.
   * **Be captured** by an opponent, in which case the Emperor leaves his current Dynasty and joins the one of the other player.
