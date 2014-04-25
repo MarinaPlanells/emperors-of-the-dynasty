@@ -6,43 +6,43 @@ Emperors of the Dynasty
 * Los torneos se pueden realizar en diferentes campos de batalla.
 * En cada torneo, el jugador controla un Emperador y unos cuantos peones (normalmente 4) sobre un tablero en mosaico, jugando contra otros varios jugadores.
 * El jugador controla una Dinastía de Emperadores. Cuando un juego comienza, el jugador elije a uno de los Emperadores de su Dinastía. El jugador puede tener varios juegos simultáneos. Pero un Emperador solo puede ser usado en un torneo por vez, es decir, el jugador no puede tener a un mismo Emperador en dos Torneos a la vez.
-* At the end of the tournament, an Emperor can:
-  * **Survive,** and the player gets it ready for another tournament.
-  * **Be captured** by an opponent, in which case the Emperor leaves his current Dynasty and joins the one of the other player.
-  * **Die,** and it's lost forever.
-* The user can always create as many Emperors as he needs, at no cost for the Dynasty.
+* Al final del torneo, un Emperador puede:
+  * **Sobrevivir,** i el jugador lo tiene disponible para otros torneos.
+  * **Ser capturado** por un oponente, en cuyo caso el Emperador dejará su Dinastía para unirse a las del oponente que lo ha capturado.
+  * **Morir,** y se pierde para siempre.
+* El jugador puede siempre crear tantos Emperadores como necesite, sin ningún coste para la Dinastía.
 
-Game goal
+Objetivo del juego
 =========
 
-Regular players
+Jugadores habituales
 ---------------
 
-* The goal of a regular player is to build the maximum possible reputation for its Dynasty over the time, first training his Emperors and then participating in as many tournaments as possible, and -of course- winning them.
-* At a single point of time, the world-champion is the player that has the highest reputation in his Dynasty.
-* Strategies can vary from having a few Emperors with a lot of reputation to having many Emperors with fewer reputation.
+* El objetivo de un jugador habitual es ganar la mayor reputación posible para su Dinastía a lo largo del tiempo, primero entrenando a sus Emperadores y después participando en tantos torneos como le sea posible, y -por supuesto- ganándolos.
+* At a single point of time, el campeón mundial es el jugador que tenga la mayor reputación en su Dinastía.
+* Las estrategias pueden variar entre tener pocos Emperadores con mucha reputación o tener muchos Emperadores con menor reputación.
 
-Casual players
+Jugadores ocasionales
 --------------
 
-* A casual player plays a battle with 1 anonymous Emperor and a few pawns but do not get a Dynasty.
-* This can be used for training, or just playing for fun. Works much similar to the "Training" tournaments for the regular players.
-* The goal for a casual player is just win the tournament he is playing in.
+* Un jugador casual participará en un Torneo con un Emperador Anónimo y unos cuantos peones pero no tendrá una Dinastía.
+* Este modelo de juego se puede usar para entrenar, o simplemente para jugar por diversión. Su funcionamiento es muy similar a los Torneos de "Entranamiento" de los jugadores habituales.
+* El objetivo para el jugador ocasional es simplemente ganar el Torneo que esté jugando.
 
-The board
+El tablero
 =========
 
-* A balltefield is represented by a tiled board.
-* There are many board shapes and sizes.
+* Un campo de batalla es representado con un tablero en mosaico.
+* Hay tableros de diferentes formas y tamaños.
 
-Example of a 4-player game
+Ejemplo de una partida para 4 jugadores
 --------------------------
 
-This represents a possible starting formation for a 4-player game in a small board.
+El dibujo inferior representa una posible formación inicial de la partida para 4 jugadores en un tablero pequeño.
 
-* Letters a, b, c and d represent 4 Dynasties, each controlled by one of the 4 players.
-* The letters in parentheses (a), (b), (c) and (d) are the Emperors of the Dynasties.
-* The letters without parentheses are the pawns.
+* Las letras a, b, c y d representan 4 Dinastías, cada una de ellas controladas por un jugador.
+* Las letras entre paréntesis (a), (b), (c) y (d) son los Emperadores de la Dinastía.
+* Las letras sin los paréntesis son los peones.
 
 <pre>
             +---+
@@ -62,10 +62,10 @@ This represents a possible starting formation for a 4-player game in a small boa
             +---+
 </pre>
 
-Example of an 8-player game
+Ejemplo de una partida para 8 jugadores
 ---------------------------
 
-This represents a possible starting formation for an 8-player game in a medium-sized board.
+El dibujo inferior representa una posible formación inicial del juego para 8 jugadores en un tablero  de tamaño medio.
 
 <pre>
             +---+               +---+
@@ -95,7 +95,7 @@ This represents a possible starting formation for an 8-player game in a medium-s
             +---+               +---+
 </pre>
 
-2-player game but with 8 pawns per player
+Partida para 2 judores pero con 8 peones por jugador
 -----------------------------------------
 
 <pre>
@@ -116,7 +116,7 @@ This represents a possible starting formation for an 8-player game in a medium-s
         +---+
 </pre>
 
-Example of a 3-player irregular-shaped battlefield with a treasure (x) in the middle
+Ejemplo de una partida de 3 jugadores con un tablero de forma irregular y un tesoro en el centro
 ------------------------------------------------------------------------------------
 
 <pre>
@@ -137,68 +137,68 @@ Example of a 3-player irregular-shaped battlefield with a treasure (x) in the mi
         +---+                           +---+
 </pre>
 
-The goal of a single combat
+El objetivo de un torneo
 ===========================
 
-The goal in a single combat may differ from battle to battle. It dependens on several factors.
+El objetivo puede ser diferente entre Torneos. Depende de muchos factores.
 
-Examples of possible goals could be:
-* Enter the opposite square with your Emperor.
-* Take all the rival Emperors.
-* Survive at least 20 moves with more than 3 pieces.
-* Take any rival Empreror that has more experience than yours.
-* Take the oposite rival Empreror with a single move of your Emperor.
+Estos son ejemplos de posibles objetivos:
+* Entrar en el cuadrado opuesto con tu Emperador.
+* Quedarse con todos los Emperadoresrivales.
+* Sobrevivir al menos 20 movimientos con más de 3 piezas.
+* Conseguir cualquier Emperador rival que tenga más experiéncia que el tuyo.
+* Quedarte el Emperador opuesto al tuyuo con un solo movimiento de tu Emperador.
 * etc.
 
-The moves
+Los movimientos
 =========
 
-* The pieces move up and down, and left and right. But never in diagonal nor in a knight move, etc.
+* Las piezas se pueden mover arriba, abajo, derecha e izquierda. Pero nunca en diagonal nor in a knight move, etc.
 
-Pawn moves
+Movimientos del peón
 ----------
 
-* In the first move, all the pawns have "1" of experience, and can move 1 square far.
-* Each time a player moves a pawn, that particular piece earns +1 of experience.
-* The second time a player moves a pawn (with 2 of experience), the pawn can move 2 squares away.
-* In general, a pawn can move "n" blocks away if it has "n" of experience.
+* En el primer movimiento, todos los peones tienen "1" de experiencia, y se pueden mover 1 casilla.
+* Cada vez que un jugador mueve un peón, ese peón en particular gana +1 de experiencia.
+* La segunda vez que el jugador mueve el peón (que tiene 2 de experiencia), el peón se puede mover 2 casillas.
+* En general, un peón se puede mover "n" casillas siendo "n" la experiencia de ese peón.
 
-Emperor moves
+Movimientos del emperador
 -------------
 
-* The Emperor also has experience, and at the beginning of the battle it also has "1" of experience.
-* As the pawns, the Emperor moves up and down, left and right as far as "n" tiles, if he has "n" of experience.
-* But differently to the pawns, the experience of the Emperor does not grow by his moves.
-* The experience of the Emperor is always "the maximum" of the experiences of his pawns.
-* For example if you have 4 pawns with 2, 3, 7 and 2, then your emperor has "7" of experience.
+* El Emperador también tiene su experiencia, al inicio del Torneo tiene 1 de experiencia.
+* AL igual que los peones, el Emperador puede moverse, arriba, abajo, a derecha y a izquierda tantas casillas como experiencia posee.
+* Pero a diferncia de los peones, su experiencia no se incrementa por sus movimientos.
+* La experiencia del Emperador es siempre "la máxima" experiéncia de sus peones.
+* Por ejemplo si tu tienes 4 peones con 2, 3 7 y 2, entonces la experiencia de tu Emperador es "7".
 
-The gameplay
+El juego
 ============
 
-* The Emperors of the Dynasty gameplay consists in all players moving simultaneusly.
-* Each player submits its movement and once all the opponents have also moved, the new formation is disclosed to all the players.
+* El juego The Emperors of the Dynasty consiste en que todos los jugadores hacen sus movimientos a la vez.
+* Cada jugador realiza su movimiento y una vez que todos los jugadores lo han hecho también, la nueva formación se desvela a todos los jugadores.
 
-The following movements are possible:
+Los siguientes movimientos son posibles:
 
-* Imagine n players. Let's call players A, B and C.
-* If player A moves a piece to a destination tile T then it can happen (each move has a name):
-  * Tile T is empty pre-move.
-    * **Free:** If no other player wants to move there, then A can move there.
-    * **Conflict:** If any other player wants to move there, there is a conflict and the movement is cancelled.
-      * Depending on the gameplay, different policies of cancellation can apply. Examples:
-        * **Rollback:** The pieces of all conflicting players go back to the original place.
-        * **Bounce:** The pieces of all players do not reach the destination tile T, but advance as near to it as they can.
-        * **Rollback and stay:** The pieces of all players go back to the original place, except for the one that did submit the quickest movement, which reaches the tile T.
+* Imagina n jugadores. Vampos a llamarles jugadores A, B y C.
+* Si el jugador A mueve una pieza a una casilla T entonces puede pasar (cada movimiento tiene un nombre):
+  * La cassila T está libre antes del movimiento.
+    * **Vacía:** Si ningún otro jugador quiere moverse ahí, entonces A puede ir ahí.
+    * **Conflicto:** Si otro jugador quiere ir a esa misma casilla, entonces hay un conflicto y el movimiento es cancelado.
+      * Dependiendo del juego, se pueden aplicar diferentes políticas de cancelación. Ejemplos:
+        * **Rollback:** Las piezas de todos los jugadores en conflicto vuelven a su posición original.
+        * **Bounce:** Las piezas de ningún jugador llega a la casilla T, pero avanza lo más cerca que puede de la casill T.
+        * **Rollback and stay:** Las piezas de todos los jugadores vuelves a su casilla original, excepto por el que envío el movimiento más rápido, que consigue llegar a la casilla T.
         * etc.
-  * Tile T (pre-move) contains a piece of another player (for example player B)
-    * **Escape:** If player B moves away from that position, the tile T becomes free and A reaches that destination.
-    * **Take:** If player B does not move and stays there, then player A "takes" the piece of player B. This will result in the taking piece to bounce back to a free tile, as a single tile cannot hold two pieces (the taker and the taken).
-    * **Take at bounce:** If player B moves away, but it is rolled back or bounced to the original position, then player A "takes" player B. Ie: Rollbacks and bounces takes place prior to "taking" opposite's pieces.
+  * La casilla T (antes del movimiento) contiene una pieza de otro jugador (por ejemplo el jugador B)
+    * **Escape:** Si el jugador B se mueve de esa posición, la casilla T queda libre y el jugador A puede moverse a ella.
+    * **Take:** Si el jugador B no se mueve y se mantiene en la casilla, entonces el jugador A "coge" la pieza del jugador B. El resultado es que la pieza "cogida" se movera atrás hasta una casilla libre, ya que una casilla solo puede haber una pieza.
+    * **Take on bounce:** Si el jugador se mueve a otra casilla, pero es devuelto o rebotado a su casilla original, entonces el jugador A "coge" al jugador B. Explicación: Los Rollbacks y rebotes se realizan antes que los movimientos de "cogida" de piezas opuestas.
 
-Conflicts
+Conflictos
 =========
 
-The policy to resolve conflicts ("rollback", "bounce", "rollback and stay", "bounce and stay" or whichever other) will be anounced previous to a tournament to all the players, along with the exact set of rules it is used to determine the position of the pieces post-conflict.
+La política de resolución de conflictos ("rollback", "bounce", "rollback and stay", "bounce and stay" o cualquier otra) será anunciada a todos los jugadores antes del inicio del Torneo, junto al conjunto de normas exacto que se usará para determinar la posición de las piezas post-conflicto.
 
 Taking pieces
 =============
